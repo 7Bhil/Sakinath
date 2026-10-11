@@ -38,3 +38,4 @@ public/assets/icons/*.svg                        (Simple Icons + Lucide)
 
 Les images sont affichées en noir & blanc pour respecter la palette ; retirez `grayscale`
 dans `src/components/ui.jsx` (composant `Media`) pour les afficher en couleur.
+# Sakinath
