@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* COULEURS DU SITE (valeurs R V B) — modifiez-les ici pour changer tout le site. */
+/* COULEURS DU SITE (valeurs R V B) — Thème Bleu profond & Jaune doré chaleureux */
 :root, .theme-dark {
-  --c-ink: 9 9 9;            /* fond de page */
-  --c-bone: 245 245 239;     /* panneaux et texte principal */
-  --c-accent: 156 255 61;    /* vert lime */
-  --c-mist: 201 209 188;  --c-mist-dim: 149 158 136;
-  --c-moss: 43 52 33;     --c-moss-dim: 86 96 74;
+  --c-ink: 7 15 34;          /* Bleu nuit profond (#070f22) */
+  --c-bone: 246 248 252;     /* Blanc cassé légèrement bleuté */
+  --c-accent: 250 204 21;    /* Jaune doré vibrant (Amber/Yellow #facc15) */
+  --c-mist: 196 211 235;  --c-mist-dim: 147 167 199;
+  --c-moss: 15 32 67;     --c-moss-dim: 45 70 120;
 }
 
 @layer base {

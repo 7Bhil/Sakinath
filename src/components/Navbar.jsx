@@ -15,7 +15,6 @@ export default function Navbar() {
   return (
     <>
       <header className="fixed inset-x-0 top-5 sm:top-7 z-50 px-5 sm:px-10">
-        {/* Liens répartis de part et d'autre du logo centré */}
         <nav className="mx-auto grid max-w-6xl grid-cols-[1fr_auto] items-center rounded-full border border-bone/10 bg-ink/90 px-3 py-2.5 text-bone backdrop-blur-xl md:grid-cols-[1fr_auto_1fr] md:px-12 md:py-5">
           <ul className="hidden items-center justify-around text-sm text-mist md:flex">
             {navLinks.slice(0, 2).map((l) => (
@@ -51,7 +50,7 @@ export default function Navbar() {
             <li key={l.href} className="border-b border-bone/10">
               <a
                 href={l.href} onClick={() => setOpen(false)}
-                className={`flex items-baseline justify-between py-4 font-display text-5xl font-bold tracking-tight transition-all duration-500 ${open ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
+                className={`flex items-baseline justify-between py-4 font-display text-4xl font-bold tracking-tight transition-all duration-500 ${open ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"}`}
                 style={{ transitionDelay: open ? `${200 + i * 70}ms` : "0ms" }}
               >
                 {l.label}<span className="text-sm font-medium text-accent">0{i + 1}</span>
@@ -60,7 +59,9 @@ export default function Navbar() {
           ))}
         </ul>
         <div>
-          <a href="#contact" onClick={() => setOpen(false)} className="btn w-full bg-accent text-ink">Discutons <Arrow /></a>
+          <a href={site.facebook} target="_blank" rel="noreferrer" onClick={() => setOpen(false)} className="btn w-full bg-accent text-ink">
+            Rejoindre sur Facebook <Arrow />
+          </a>
           <p className="mt-5 text-center text-sm text-mist-dim">{site.email}</p>
         </div>
       </div>

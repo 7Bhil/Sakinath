@@ -1,63 +1,57 @@
-// Contenus orientés client : problème, FAQ, offre finale.
-// ⚠️ Ce sont des engagements : ne gardez que ce que Batista peut réellement tenir.
+// Données orientées Storytelling, Création de Contenus narratifs & Mindset
 
-// Section « Le vrai problème » : pourquoi un site ne rapporte rien, et la réponse apportée.
 export const problems = [
   {
-    tag: "Trop lent",
-    visual: "speed",
-    title: "Il met trop de temps à s’afficher",
-    text: "Sur téléphone, chaque seconde d’attente fait fuir des visiteurs. Ils ferment l’onglet avant même d’avoir vu votre offre.",
-    fix: "Des pages légères, des images optimisées, un affichage quasi instantané.",
-  },
-  {
-    tag: "Invisible",
+    tag: "Manque d'inspiration",
     visual: "search",
-    title: "Personne ne le trouve sur Google",
-    text: "Un site absent de la première page de recherche, c’est un site que vos clients ne verront jamais.",
-    fix: "Une structure propre et des bases de référencement posées dès la conception.",
+    title: "Des journées qui défilent sans saveur ni recul",
+    text: "Dans le tourbillon de la routine, on oublie souvent d'écouter, d'observer et de tirer les enseignements cachés derrière chaque épreuve quotidienne.",
+    fix: "Chaque matin, je décortique un vécu concret pour en faire une clé d'éveil et un déclic de résilience.",
   },
   {
-    tag: "Mal adapté",
+    tag: "Perte de motivation",
+    visual: "speed",
+    title: "Le doute qui s'installe face aux obstacles",
+    text: "Les conseils théoriques ne suffisent plus. Ce dont nous avons besoin, ce sont des histoires vraies, vulnérables et authentiques qui résonnent avec nos combats réels.",
+    fix: "Un storytelling sans artifice, qui partage les peurs, les chutes et la façon concrète de se relever.",
+  },
+  {
+    tag: "Mindset stagnant",
     visual: "mobile",
-    title: "Il est pensé pour un ordinateur",
-    text: "La plupart de vos visiteurs arrivent depuis un téléphone. Textes minuscules, boutons introuvables : ils abandonnent.",
-    fix: "Chaque écran conçu d’abord pour le mobile, avec un contact accessible en un geste.",
+    title: "Difficulté à passer à l'action et s'affirmer",
+    text: "Sans un cadre mental fort et inspirant, on reste prisonnier du regard des autres et de la peur de l'échec.",
+    fix: "Des récits percutants publiés sur Facebook qui reprogramment votre vision et vous poussent à oser.",
   },
 ];
 
-// Questions fréquentes.
+// Questions fréquentes sur son rôle de Storyteller et Créatrice de contenu
 export const faq = [
   {
-    q: "Combien coûte un site ?",
-    a: "Cela dépend de ce dont vous avez besoin : un site vitrine de quelques pages n’a pas le même prix qu’une boutique en ligne ou une application sur mesure. Après un premier échange, je vous envoie un devis détaillé et gratuit, avec ce qui est inclus et ce qui ne l’est pas.",
+    q: "Qu'est-ce que le Storytelling pour vous ?",
+    a: "Pour moi, le storytelling n'est pas une simple technique d'écriture : c'est l'art de donner une voix aux émotions et aux vérités de la vie quotidienne. C'est transformer une simple journée en une source inépuisable de leçons et de sagesse.",
   },
   {
-    q: "En combien de temps mon site sera-t-il en ligne ?",
-    a: "Le délai est fixé ensemble dans le devis, selon la taille du projet. Vous voyez le site avancer à chaque étape grâce à des démos régulières : pas de surprise à la livraison.",
+    q: "Où peut-on lire vos contenus narratifs ?",
+    a: "Je partage principalement mes récits et chroniques sur ma page Facebook officielle (facebook.com/sakinath.adebissi). Vous y trouverez des publications régulières, des réflexions sur le mindset et des histoires vécues.",
   },
   {
-    q: "À qui appartiendront le site et le nom de domaine ?",
-    a: "À vous. Le nom de domaine, l’hébergement, les contenus et les accès sont à votre nom. Vous restez libre de changer de prestataire quand vous le voulez.",
+    q: "Quels types de collaborations proposez-vous ?",
+    a: "J'interviens pour la rédaction de contenus narratifs (storytelling de marque ou personnel), la création de posts inspirants, l'animation éditoriale, des interventions sur le mindset et des projets de communication narrative.",
   },
   {
-    q: "Est-ce que je pourrai modifier mon site moi-même ?",
-    a: "Oui, si vous le souhaitez : je peux prévoir un espace d’administration pour changer vos textes, vos images ou vos produits, et je vous montre comment l’utiliser.",
+    q: "Vous parlez aussi anglais ?",
+    a: "Oui, je m'exprime couramment en anglais, ce qui me permet de concevoir des contenus bilingues et de m'adresser à une audience internationale.",
   },
   {
-    q: "Faut-il vraiment refaire mon site actuel ?",
-    a: "Pas forcément. Parfois quelques corrections suffisent. Envoyez-moi l’adresse de votre site : je vous dis honnêtement s’il vaut mieux l’améliorer ou le refaire.",
-  },
-  {
-    q: "Et après la mise en ligne ?",
-    a: "Je vous accompagne pour la prise en main et je reste disponible pour les corrections, les évolutions ou la maintenance, selon ce qui a été convenu ensemble.",
+    q: "Quel est le lien avec votre formation en gestion et transport ?",
+    a: "Ma formation académique (Licence GTL et Bac G2) m'apporte une rigueur analytique, un sens de l'organisation et une capacité à structurer mes pensées. Cela enrichit ma plume : des écrits à la fois sensibles et d'une clarté méthodique.",
   },
 ];
 
-// Offre finale (audit gratuit).
+// Appel final (Échange & Collaboration)
 export const offer = {
-  eyebrow: "Audit gratuit",
-  title: "Envoyez-moi votre site,\nje vous dis ce que je vois.",
-  text: "Indiquez l’adresse de votre site, ou simplement votre activité si vous n’en avez pas encore. Je l’étudie et je vous réponds avec les trois choses que je corrigerais en priorité.",
-  perks: ["Gratuit", "Sans engagement", "Réponse sous 48 h"],
+  eyebrow: "Création de contenu & Récits",
+  title: "Donnons vie à vos histoires\net à votre vision.",
+  text: "Vous souhaitez raconter votre parcours, inspirer votre audience, insuffler du storytelling dans votre communication ou échanger sur le mindset ? Contactez-moi !",
+  perks: ["Storytelling authentique", "Impact émotionnel garanti", "Rigueur et créativité"],
 };

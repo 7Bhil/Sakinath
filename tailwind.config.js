@@ -15,6 +15,9 @@ export default {
       fontFamily: {
         display: ['"Space Grotesk Variable"', "Space Grotesk", "system-ui", "sans-serif"],
         sans: ['"Inter Variable"', "Inter", "system-ui", "sans-serif"],
+        handwriting: ['"Caveat"', "cursive"],
+        cursive: ['"Dancing Script"', "cursive"],
+        script: ['"Alex Brush"', '"Parisienne"', '"Dancing Script"', "cursive"],
       },
       fontSize: {
         hero: ["clamp(2.25rem, 5vw, 5.25rem)", { lineHeight: "0.95", letterSpacing: "-0.045em" }],

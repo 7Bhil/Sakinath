@@ -1,39 +1,64 @@
-// Compétences — les icônes sont des SVG locaux dans /public/assets/icons/.
+// Compétences — adaptées à la Gestion des Transports, Logistique et Transit
 const icon = (name) => `/assets/icons/${name}.svg`;
 
-// Les 3 technologies dominantes.
+// Les 3 piliers majeurs de son profil
 export const coreSkills = [
-  { n: "01", name: "React.js", role: "Développement d’interfaces", icon: icon("react"),
-    detail: "Composants réutilisables, hooks, état local et consommation d’API." },
-  { n: "02", name: "Tailwind CSS", role: "Systèmes UI modernes", icon: icon("tailwindcss"),
-    detail: "Intégration fidèle des maquettes, design responsive et systèmes cohérents." },
-  { n: "03", name: "Laravel", role: "Applications web", icon: icon("laravel"),
-    detail: "Routes, contrôleurs, Eloquent et API REST pour des applications complètes." },
+  { 
+    n: "01", 
+    name: "Supply Chain & Fret", 
+    role: "Transport Multimodal & Corridors", 
+    icon: icon("benefit-speed"),
+    detail: "Planification des tournées, affrètement routier/maritime, optimisation des flux sur le corridor Bénin-Hinterland." 
+  },
+  { 
+    n: "02", 
+    name: "Gestion des Stocks", 
+    role: "Entreposage & Plateformes", 
+    icon: icon("benefit-quality"),
+    detail: "Tenue des registres d'inventaire, rotation FIFO/LIFO, gestion des magasins et prévention des ruptures de stock." 
+  },
+  { 
+    n: "03", 
+    name: "Douane & Transit", 
+    role: "Procédures d’Import / Export", 
+    icon: icon("benefit-goal"),
+    detail: "Maîtrise des Incoterms, liasse documentaire (connaissement, déclaration douanière), passage portuaire et dédouanement." 
+  },
 ];
 
 export const skillGroups = [
-  { n: "01", title: "Frontend", items: [
-    { name: "React.js", icon: icon("react") },
-    { name: "Tailwind CSS", icon: icon("tailwindcss") },
-    { name: "JavaScript", icon: icon("javascript") },
-    { name: "TypeScript", icon: icon("typescript"), note: "en apprentissage" },
-    { name: "HTML5", icon: icon("html5") },
-    { name: "CSS3", icon: icon("css") },
-    { name: "Design responsive", icon: icon("responsive") },
-    { name: "Intégration UI", icon: icon("ui-integration") },
-  ]},
-  { n: "02", title: "Backend", items: [
-    { name: "Laravel", icon: icon("laravel") },
-    { name: "PHP", icon: icon("php") },
-    { name: "API REST", icon: icon("rest-api") },
-    { name: "Intégration d’API", icon: icon("api-integration") },
-    { name: "MySQL", icon: icon("mysql") },
-  ]},
-  { n: "03", title: "Outils", items: [
-    { name: "Git", icon: icon("git") },
-    { name: "GitHub", icon: icon("github") },
-    { name: "Figma", icon: icon("figma") },
-    { name: "Postman", icon: icon("postman") },
-    { name: "Vite", icon: icon("vite") },
-  ]},
+  { 
+    n: "01", 
+    title: "Logistique & Fret", 
+    items: [
+      { name: "Transport Multimodal", icon: icon("benefit-speed") },
+      { name: "Gestion de Flotte", icon: icon("focus") },
+      { name: "Planification des Flux", icon: icon("approach") },
+      { name: "Suivi des Expéditions (Tracking)", icon: icon("role") },
+      { name: "Calcul des Coûts Logistiques", icon: icon("benefit-goal") },
+      { name: "Gestion des Entrepôts", icon: icon("benefit-quality") },
+    ]
+  },
+  { 
+    n: "02", 
+    title: "Transit & Réglementation", 
+    items: [
+      { name: "Incoterms (CCI)", icon: icon("benefit-goal") },
+      { name: "Procédures Douanières", icon: icon("focus") },
+      { name: "Liasse Documentaire Import/Export", icon: icon("role") },
+      { name: "Réglementation Portuaire & UEMOA", icon: icon("approach") },
+      { name: "Gestion des Litiges & Assurances", icon: icon("benefit-quality") },
+    ]
+  },
+  { 
+    n: "03", 
+    title: "Gestion, Outils & Méthodes", 
+    items: [
+      { name: "Comptabilité & Gestion (Bac G2)", icon: icon("benefit-goal") },
+      { name: "Excel Avancé & Tableaux de bord", icon: icon("focus") },
+      { name: "Logiciels de Gestion / ERP", icon: icon("role") },
+      { name: "Organisation & Événementiel", icon: icon("approach") },
+      { name: "Négociation & Relation Fournisseurs", icon: icon("benefit-talk") },
+    ]
+  },
 ];

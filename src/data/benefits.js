@@ -1,20 +1,44 @@
-// Section « Pourquoi moi » — ce que le client y gagne. Modifiez librement les textes.
+// Section « Ce que vous apporte mon Storytelling »
 const icon = (n) => `/assets/icons/benefit-${n}.svg`;
 
 export const benefits = [
-  { icon: icon("goal"), title: "Un site pensé pour vos objectifs", text: "Avant d’écrire une ligne de code, on définit ce que votre site doit vous rapporter : des contacts, des ventes, des réservations." },
-  { icon: icon("fullstack"), title: "Une seule interlocutrice, du design au serveur", text: "Interface, back-end Laravel et base de données : vous n’avez qu’une personne à contacter, même quand mon équipe intervient." },
-  { icon: icon("speed"), title: "Rapide et léger", text: "Des pages qui s’affichent vite, même sur une connexion mobile moyenne. Vos visiteurs ne partent pas avant d’avoir vu votre offre." },
-  { icon: icon("mobile"), title: "Parfait sur téléphone", text: "La majorité de vos clients vous découvriront sur mobile : chaque écran est conçu et testé pour eux." },
-  { icon: icon("talk"), title: "Vous suivez tout, sans jargon", text: "Points réguliers, démos à chaque étape et explications claires. Vous savez toujours où en est votre projet." },
-  { icon: icon("quality"), title: "Un code propre qui dure", text: "Un projet structuré et documenté, facile à faire évoluer ou à reprendre plus tard, par moi ou par quelqu’un d’autre." },
+  { 
+    icon: icon("goal"), 
+    title: "Storytelling Authentique & Vécu", 
+    text: "Pas de théories abstraites : chaque texte est enraciné dans l'expérience réelle du quotidien, touchant directement le cœur des lecteurs." 
+  },
+  { 
+    icon: icon("talk"), 
+    title: "Édification du Mindset", 
+    text: "Des leçons puissantes de résilience, de foi et de persévérance pour aider chacun à traverser ses propres épreuves avec force." 
+  },
+  { 
+    icon: icon("quality"), 
+    title: "Contenu Narratif Captivant", 
+    text: "L'art de structurer un récit qui captive dès les premières lignes et retient l'attention jusqu'au dénouement inspirant." 
+  },
+  { 
+    icon: icon("mobile"), 
+    title: "Maîtrise des Réseaux Sociaux", 
+    text: "Une présence vivante et régulière sur Facebook, bâtissant une communauté engagée autour de valeurs positives et constructives." 
+  },
+  { 
+    icon: icon("speed"), 
+    title: "Expression Bilingue (Français & Anglais)", 
+    text: "Aisance totale pour concevoir et délivrer des messages narratifs puissants en français comme en anglais." 
+  },
+  { 
+    icon: icon("fullstack"), 
+    title: "Rigueur d'esprit & Sens du détail", 
+    text: "L'alliance rare de la créativité littéraire et de la précision méthodologique (héritage de ma formation de gestionnaire)." 
+  },
 ];
 
-// Comparaison « approche classique » / « avec moi ».
+// Comparaison : Contenu classique vs Storytelling immersif
 export const comparison = [
-  ["Un devis flou, des coûts qui gonflent en route", "Un périmètre et un planning clairs dès le départ"],
-  ["Des nouvelles seulement à la livraison", "Des démos régulières : vous validez au fur et à mesure"],
-  ["Un modèle générique, identique à d’autres sites", "Une interface conçue pour votre activité"],
-  ["Plusieurs prestataires à coordonner vous-même", "Une seule interlocutrice qui s’occupe de tout, du design à la mise en ligne"],
-  ["Une livraison, puis plus personne", "Une prise en main expliquée et un suivi après la mise en ligne"],
+  ["Contenus froids, sans âme ni émotion", "Récits vivants, vibrants d'humanité et de sincérité"],
+  ["Conseils génériques vite oubliés", "Histoires marquantes qui créent un déclic durable"],
+  ["Communication impersonnelle et distante", "Connexion authentique et proximité avec l'audience"],
+  ["Posts invisibles dans le fil d'actualité", "Textes magnétiques qui retiennent la lecture jusqu'au bout"],
+  ["Message confus ou trop académique", "Simplicité, clarté et impact direct sur le mindset"],
 ];

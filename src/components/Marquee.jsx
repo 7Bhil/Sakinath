@@ -1,7 +1,18 @@
 import { Spark } from "./ui.jsx";
 
-// Contenu de la bande — modifiez librement.
-const items = ["React.js", "Tailwind CSS", "Laravel", "JavaScript", "PHP", "MySQL", "REST API", "Git", "Figma"];
+// Mots-clés défilants adaptés au Storytelling, Mindset, Anglais et Logistique
+const items = [
+  "Storytelling Authentique",
+  "Mindset & Vécus du Quotidien",
+  "Créatrice de Contenus Narratifs",
+  "English Fluent",
+  "Porto-Novo",
+  "Facebook Creator",
+  "Gestion des Transports & Logistique",
+  "Licence GTL",
+  "Bac G2",
+  "Impact & Résilience"
+];
 
 /* Bande défilante unique, légèrement inclinée, juste après la Hero. */
 export default function Marquee() {

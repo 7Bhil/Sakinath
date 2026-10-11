@@ -1,45 +1,42 @@
-// Informations personnelles — tout se modifie ici.
+// Informations personnelles — Sakinath Afounou
 export const site = {
-  name: "Batista Segla",
-  role: "Développeuse web junior",
-  email: "batista.segla@example.com",
+  name: "Sakinath Afounou",
+  role: "Storyteller & Créatrice de contenus narratifs",
+  subRole: "Chroniques de vie & Mindset au quotidien",
+  bannerQuote: "J’édifie votre mindset à travers mes vécus du quotidien",
+  bio: "Chaque journée apporte son lot d'épreuves, de petites victoires et d'enseignements précieux. À travers mes écrits et chroniques publiés sur Facebook, je partage mes vécus sans filtre pour éveiller les esprits, renforcer la résilience et cultiver un mindset inébranlable.",
+  languages: "Français & Anglais (courant / fluent)",
+  email: "sakinath.afounou@gmail.com",
+  facebook: "https://www.facebook.com/sakinath.adebissi",
   linkedin: "https://www.linkedin.com/",
-  github: "https://github.com/",
-  // Notification par e-mail à chaque nouveau visiteur (une seule fois par personne).
-  // 1. Créez une clé gratuite sur https://web3forms.com avec l'adresse qui doit recevoir les alertes.
-  // 2. Collez-la ci-dessous. Clé vide = notifications désactivées.
+  location: "Porto-Novo, Bénin",
+  education: "Licence GTL (IUT de Parakou) · Baccalauréat G2",
   visitNotification: { accessKey: "" },
   images: {
-    // Portrait détouré (fond transparent : PNG ou WebP).
-    hero: "/assets/images/hero/batista-hero.webp",
-    about: "/assets/images/about/batista-about.jpg",
+    hero: "/assets/images/Sakinath/sakinath hero.png",
+    about: "/assets/images/Sakinath/image copy.png",
+    traditional: "/assets/images/Sakinath/image.png",
   },
 };
 
 export const navLinks = [
-  { label: "À propos", href: "#about" },
-  { label: "Projets", href: "#projects" },
-  { label: "Compétences", href: "#skills" },
+  { label: "Mon histoire", href: "#about" },
+  { label: "Pourquoi mes récits", href: "#pourquoi" },
+  { label: "Le Mindset", href: "#probleme" },
+  { label: "Questions fréquentes", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
 
 export const stats = [
-  { value: "04", label: "Projets réalisés" },
-  { value: "03", label: "Technologies principales" },
-  { value: "15+", label: "Interfaces conçues" },
-  { value: "100%", label: "Passion du développement" },
+  { value: "365", label: "Jours de vécus et réflexions partagés" },
+  { value: "100%", label: "Authenticité & récits vécus sans filtre" },
+  { value: "02", label: "Langues d'expression (Français & Anglais)" },
+  { value: "10K+", label: "Personnes inspirées et édifiées" },
 ];
 
 export const aboutFacts = [
-  { label: "Basée en", value: "Afrique de l’Ouest" },
-  { label: "Rôle", value: "Développeuse web junior" },
-  { label: "Spécialité", value: "Frontend & Full-stack" },
-  { label: "Approche", value: "Simple · Utile · Élégant" },
-];
-
-export const process = [
-  { n: "01", title: "Découvrir", text: "Comprendre votre activité, vos objectifs et vos clients." },
-  { n: "02", title: "Concevoir", text: "Dessiner une expérience claire et la valider avec vous." },
-  { n: "03", title: "Développer", text: "Construire le site, avec des démos régulières." },
-  { n: "04", title: "Lancer", text: "Tester, mettre en ligne et vous former à la prise en main." },
+  { label: "Résidence", value: "Porto-Novo, Bénin", icon: "/assets/icons/location.svg" },
+  { label: "Vocation", value: "Partager mes journées & édifier", icon: "/assets/icons/focus.svg" },
+  { label: "Canal principal", value: "Facebook (Récits réguliers)", icon: "/assets/icons/benefit-talk.svg" },
+  { label: "Langues", value: "Anglais fluide & Français", icon: "/assets/icons/benefit-goal.svg" },
 ];
