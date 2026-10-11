@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 /**
  * Écran d'accueil au rafraîchissement :
  * - Fond noir / bleu nuit profond (#050914).
- * - Écriture manuscrite script calligraphique fluide (font-script : Alex Brush / Parisienne).
+ * - Écriture cursive pure élégante (Dancing Script, Great Vibes, Parisienne, cursive).
  * - "Bonjour" ou "Bonsoir" selon l'heure, tracé lettre par lettre.
  * - Suivi d'un message doux, puis disparition automatique par fondu.
  */
@@ -27,7 +27,7 @@ export default function Curtain() {
     window.scrollTo(0, 0);
     document.body.style.overflow = "hidden";
 
-    // Tracé script lettre par lettre
+    // Tracé cursif lettre par lettre
     let currentIdx = 0;
     const interval = setInterval(() => {
       currentIdx++;
@@ -70,15 +70,19 @@ export default function Curtain() {
           className="pointer-events-none absolute h-72 w-72 rounded-full bg-accent/20 blur-[130px]"
         />
 
-        {/* Mot manuscrit en écriture script calligraphique */}
-        <h1 className="relative font-script text-8xl font-normal tracking-wide text-accent sm:text-9xl md:text-[10rem] py-4 select-none leading-none">
+        {/* Mot manuscrit en cursive pure avec style inline garanti */}
+        <h1
+          style={{ fontFamily: "'Dancing Script', 'Great Vibes', 'Parisienne', cursive" }}
+          className="relative text-8xl sm:text-9xl md:text-[10rem] font-bold tracking-wider text-accent py-4 select-none leading-none drop-shadow-md"
+        >
           {displayText}
           <span className="inline-block animate-pulse text-bone/60 font-light ml-1 text-7xl sm:text-8xl">|</span>
         </h1>
 
-        {/* Sous-titre script / doux */}
+        {/* Sous-titre cursif */}
         <p
-          className={`relative mt-4 font-script text-3xl tracking-wide text-mist sm:text-4xl transition-all duration-700 ease-out select-none ${
+          style={{ fontFamily: "'Dancing Script', 'Parisienne', cursive" }}
+          className={`relative mt-4 text-3xl sm:text-4xl tracking-wide text-mist transition-all duration-700 ease-out select-none ${
             subText ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
           }`}
         >
