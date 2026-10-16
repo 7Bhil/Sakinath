@@ -1,4 +1,4 @@
-// Projets & Réalisations — Sakinath Afounou (3 projets sélectionnés, le 4e a été retiré)
+// Projets & Réalisations — Sakinath AFANOU (3 projets sélectionnés, le 4e a été retiré)
 export const projects = [
   {
     n: "01",

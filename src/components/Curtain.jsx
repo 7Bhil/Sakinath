@@ -95,7 +95,7 @@ export default function Curtain() {
             subText ? "opacity-100" : "opacity-0"
           }`}
         >
-          Sakinath Afounou · Storyteller
+          Sakinath AFANOU · Storyteller
         </p>
       </div>
     </div>

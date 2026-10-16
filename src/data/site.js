@@ -1,12 +1,12 @@
-// Informations personnelles — Sakinath Afounou
+// Informations personnelles — Sakinath AFANOU
 export const site = {
-  name: "Sakinath Afounou",
+  name: "Sakinath AFANOU",
   role: "Storyteller & Créatrice de contenus narratifs",
   subRole: "Chroniques de vie & Mindset au quotidien",
   bannerQuote: "J’édifie votre mindset à travers mes vécus du quotidien",
   bio: "Chaque journée apporte son lot d'épreuves, de petites victoires et d'enseignements précieux. À travers mes écrits et chroniques publiés sur Facebook, je partage mes vécus sans filtre pour éveiller les esprits, renforcer la résilience et cultiver un mindset inébranlable.",
   languages: "Français & Anglais (courant / fluent)",
-  email: "sakinath.afounou@gmail.com",
+  email: "sakinath.afanou@gmail.com",
   facebook: "https://www.facebook.com/sakinath.adebissi",
   linkedin: "https://www.linkedin.com/",
   location: "Porto-Novo, Bénin",
