@@ -91,7 +91,7 @@ export default function WhyMe() {
             <h2 className="mt-8 font-display text-title font-bold">Ce que vous y <span className="mark">gagnez</span>.</h2>
           </Reveal>
           <Reveal delay={120} className="font-display text-xl leading-snug text-mist sm:text-2xl lg:col-span-4 lg:pb-3">
-            Un site n’est pas une fin en soi : c’est un outil pour faire grandir votre activité.
+            Des histoires qui ne se contentent pas de divertir : elles créent du lien et font passer à l'action.
           </Reveal>
         </div>
 

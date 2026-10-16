@@ -69,12 +69,12 @@ export default function Problem() {
         <div className="shell relative">
           <div className="grid items-end gap-8 lg:grid-cols-12">
             <Reveal className="lg:col-span-8">
-              <p className="eyebrow text-accent">( Le vrai sujet )</p>
-              <h2 className="mt-8 font-display text-mega font-bold">Beau, mais<br />il ne vous <span className="mark">rapporte rien</span> ?</h2>
+              <p className="eyebrow text-accent">( Le déclic narratif )</p>
+              <h2 className="mt-8 font-display text-mega font-bold">Un beau discours,<br />mais <span className="mark">aucun impact</span> ?</h2>
             </Reveal>
             <Reveal delay={120} className="lg:col-span-4 lg:pb-3">
               <p className="text-lg leading-relaxed text-bone/85">
-                Ce n’est presque jamais une question de goût. Trois problèmes font fuir vos visiteurs avant même qu’ils aient vu ce que vous faites.
+                Ce n’est pas un problème de produit ou de volonté. Trois freins empêchent votre audience de se sentir connectée et de passer à l’action.
               </p>
               <p className="mt-5 inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-2 font-display text-sm font-medium text-accent">
                 <span aria-hidden="true">↻</span> Survolez ou touchez une ligne pour la réparer
