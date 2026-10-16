@@ -15,7 +15,7 @@ export default function Contact() {
           <div className="mt-14 grid items-start gap-12 lg:mt-16 lg:grid-cols-12">
             <Reveal className="lg:col-span-5">
               <p className="text-xl leading-relaxed text-moss sm:text-2xl">
-                Que ce soit pour une opportunité professionnelle, une intervention en storytelling/création de contenu, une mission en transport et logistique ou simplement échanger sur le mindset, je serai ravie de vous lire.
+                Que ce soit pour valoriser votre marque à travers une histoire mémorable, concevoir des textes qui font passer à l'action ou dynamiser vos réseaux sociaux, je serai ravie de collaborer avec vous.
               </p>
               <ul className="mt-10 flex flex-col gap-4 font-display text-lg font-medium">
                 <li>
@@ -24,7 +24,14 @@ export default function Contact() {
                   </a>
                 </li>
                 <li><a className="link-line break-all" href={`mailto:${site.email}`}>{site.email}</a></li>
-                <li className="text-moss-dim">Localisation : {site.location} (Porto-Novo)</li>
+                {site.phone && (
+                  <li>
+                    <a className="link-line text-ink" href={`tel:${site.phone.replace(/\s+/g, '')}`}>
+                      📞 {site.phone}
+                    </a>
+                  </li>
+                )}
+                <li className="text-moss-dim">Localisation : {site.location}</li>
                 <li className="text-moss-dim">Langues : {site.languages}</li>
               </ul>
             </Reveal>

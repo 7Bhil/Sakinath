@@ -16,7 +16,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className="mt-12 flex justify-between border-t border-bone/15 pt-6 text-sm text-mist-dim">
-        <p>© 2026 {site.name} — Storyteller & Gestionnaire Transports et Logistique</p>
+        <p>© 2026 {site.name} — Storytelleuse & Copywriter | Storytelling de Marque</p>
         <a href="#top" className="link-line">Retour en haut ↑</a>
       </div>
     </footer>

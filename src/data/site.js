@@ -1,16 +1,17 @@
 // Informations personnelles — Sakinath AFANOU
 export const site = {
   name: "Sakinath AFANOU",
-  role: "Storyteller & Créatrice de contenus narratifs",
-  subRole: "Chroniques de vie & Mindset au quotidien",
-  bannerQuote: "J’édifie votre mindset à travers mes vécus du quotidien",
-  bio: "Chaque journée apporte son lot d'épreuves, de petites victoires et d'enseignements précieux. À travers mes écrits et chroniques publiés sur Facebook, je partage mes vécus sans filtre pour éveiller les esprits, renforcer la résilience et cultiver un mindset inébranlable.",
-  languages: "Français & Anglais (courant / fluent)",
-  email: "sakinath.afanou@gmail.com",
+  role: "Storytelleuse & Copywriter",
+  subRole: "Spécialiste Storytelling de Marque & Récits Quotidiens",
+  bannerQuote: "Je transforme vos expériences et vos idées en histoires qui captivent et font passer à l'action",
+  bio: "Storytelleuse et copywriter professionnelle, je transforme vos expériences du quotidien, vos observations et vos idées en histoires qui captivent, créent de l'identification et surtout font passer à une action précise. Spécialiste du storytelling appliqué aux marques : raconter ce qu'il y a derrière un produit, son histoire, son savoir-faire et ses inspirations.",
+  languages: "Français · Anglais · Yoruba · Goun",
+  email: "sakinathafanou@gmail.com",
+  phone: "+229 01 46 90 47 57",
   facebook: "https://www.facebook.com/sakinath.adebissi",
   linkedin: "https://www.linkedin.com/",
   location: "Porto-Novo, Bénin",
-  education: "Licence GTL (IUT de Parakou) · Baccalauréat G2",
+  education: "Formation Copywriting (6 mois avec Fritzel Adjaho) · Storytelling (3 mois autodidacte)",
   visitNotification: { accessKey: "" },
   images: {
     hero: "/assets/images/Sakinath/sakinath hero.png",
@@ -21,22 +22,22 @@ export const site = {
 
 export const navLinks = [
   { label: "Mon histoire", href: "#about" },
-  { label: "Pourquoi mes récits", href: "#pourquoi" },
-  { label: "Le Mindset", href: "#probleme" },
+  { label: "Ce que j'apporte", href: "#pourquoi" },
+  { label: "Le déclic", href: "#probleme" },
   { label: "Questions fréquentes", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
 
 export const stats = [
-  { value: "365", label: "Jours de vécus et réflexions partagés" },
-  { value: "100%", label: "Authenticité & récits vécus sans filtre" },
-  { value: "02", label: "Langues d'expression (Français & Anglais)" },
-  { value: "10K+", label: "Personnes inspirées et édifiées" },
+  { value: "369K+", label: "Vues sur une seule publication virale" },
+  { value: "35K+", label: "Interactions générées sur un post" },
+  { value: "9.8K", label: "Abonnés engagés (de 3k à 9,8k en 1 an)" },
+  { value: "04", label: "Langues maîtrisées (FR, EN, Yoruba, Goun)" },
 ];
 
 export const aboutFacts = [
   { label: "Résidence", value: "Porto-Novo, Bénin", icon: "/assets/icons/location.svg" },
-  { label: "Vocation", value: "Partager mes journées & édifier", icon: "/assets/icons/focus.svg" },
-  { label: "Canal principal", value: "Facebook (Récits réguliers)", icon: "/assets/icons/benefit-talk.svg" },
-  { label: "Langues", value: "Anglais fluide & Français", icon: "/assets/icons/benefit-goal.svg" },
+  { label: "Spécialité", value: "Storytelling de marque & Copywriting", icon: "/assets/icons/focus.svg" },
+  { label: "Communauté Facebook", value: "+9 800 abonnés réguliers", icon: "/assets/icons/benefit-talk.svg" },
+  { label: "Formation clé", value: "Mentorat Fritzel Adjaho", icon: "/assets/icons/benefit-goal.svg" },
 ];

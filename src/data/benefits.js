@@ -4,33 +4,33 @@ const icon = (n) => `/assets/icons/benefit-${n}.svg`;
 export const benefits = [
   { 
     icon: icon("goal"), 
-    title: "Storytelling Authentique & Vécu", 
-    text: "Pas de théories abstraites : chaque texte est enraciné dans l'expérience réelle du quotidien, touchant directement le cœur des lecteurs." 
+    title: "Storytelling de Marque", 
+    text: "Sublimer les produits, les matières premières et le savoir-faire des artisans et créateurs avec une histoire humaine et captivante." 
   },
   { 
     icon: icon("talk"), 
-    title: "Édification du Mindset", 
-    text: "Des leçons puissantes de résilience, de foi et de persévérance pour aider chacun à traverser ses propres épreuves avec force." 
+    title: "Identification & Émotion", 
+    text: "Fini les discours institutionnels froids : des récits authentiques ancrés dans le quotidien qui touchent directement le cœur de votre cible." 
   },
   { 
     icon: icon("quality"), 
-    title: "Contenu Narratif Captivant", 
-    text: "L'art de structurer un récit qui captive dès les premières lignes et retient l'attention jusqu'au dénouement inspirant." 
+    title: "Copywriting de Conversion", 
+    text: "Maîtrise pointue des leviers d'action : accroches magnétiques, rythme soutenu et incitations fortes au passage à l'acte d'achat." 
   },
   { 
     icon: icon("mobile"), 
-    title: "Maîtrise des Réseaux Sociaux", 
-    text: "Une présence vivante et régulière sur Facebook, bâtissant une communauté engagée autour de valeurs positives et constructives." 
+    title: "Viralité & Audience Engagée", 
+    text: "Une capacité prouvée à capter l'attention (+369k vues sur un post, 9.8k abonnés) et à fédérer une véritable communauté." 
   },
   { 
     icon: icon("speed"), 
-    title: "Expression Bilingue (Français & Anglais)", 
-    text: "Aisance totale pour concevoir et délivrer des messages narratifs puissants en français comme en anglais." 
+    title: "Sensibilité Multiculturelle", 
+    text: "Expression fluide en Français, Anglais, Yoruba et Goun : une richesse linguistique au service des marques locales et internationales." 
   },
   { 
     icon: icon("fullstack"), 
-    title: "Rigueur d'esprit & Sens du détail", 
-    text: "L'alliance rare de la créativité littéraire et de la précision méthodologique (héritage de ma formation de gestionnaire)." 
+    title: "Rigueur & Méthode (Mentorat)", 
+    text: "Formée 6 mois aux méthodes éprouvées de copywriting avec Fritzel Adjaho pour allier créativité et stratégie commerciale." 
   },
 ];
 

@@ -27,14 +27,14 @@ export default function About() {
 
         <div className="lg:col-span-6 lg:col-start-6 lg:pt-10">
           <Reveal className="font-display text-2xl leading-snug tracking-tight sm:text-3xl sm:leading-[1.25]">
-            Je suis <span className="underline decoration-accent underline-offset-4">{site.name}</span>, installée à <strong className="text-accent">Porto-Novo</strong>.{" "}
+            Je suis <span className="underline decoration-accent underline-offset-4">{site.name}</span>, storytelleuse et copywriter professionnelle basée à <strong className="text-accent">Porto-Novo</strong>.{" "}
             <span className="text-mist-dim">
-              Ce que j'aime le plus ? Observer le monde, vivre pleinement mes journées et retranscrire mes ressentis avec sincérité. Derrière chaque imprévu, chaque émotion et chaque rencontre se cache une opportunité de bâtir un mindset plus fort.
+              Ce qui m'anime ? Transformer vos expériences du quotidien, vos observations et vos idées en histoires vibrantes qui captivent, créent de l'identification et incitent à une action précise.
             </span>
           </Reveal>
 
           <p className="mt-6 text-lg leading-relaxed text-bone/90">
-            Sur ma page Facebook, je ne cherche pas à vendre une vie parfaite : je raconte la vraie vie, avec ses doutes et ses victoires. Si mes écrits peuvent vous donner le courage de franchir un cap aujourd'hui, alors ma journée est réussie.
+            Spécialiste du storytelling appliqué aux marques, je mets en lumière l'histoire humaine, le savoir-faire et les inspirations derrière chaque création. Sur les réseaux sociaux comme dans mes collaborations, je ne me contente pas d'écrire : je tisse un lien profond et durable entre une marque et son public.
           </p>
 
           <div className="mt-8">

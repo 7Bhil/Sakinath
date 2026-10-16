@@ -24,34 +24,34 @@ export const problems = [
   },
 ];
 
-// Questions fréquentes sur son rôle de Storyteller et Créatrice de contenu
+// Questions fréquentes sur son rôle de Storytelleuse et Copywriter
 export const faq = [
   {
     q: "Qu'est-ce que le Storytelling pour vous ?",
-    a: "Pour moi, le storytelling n'est pas une simple technique d'écriture : c'est l'art de donner une voix aux émotions et aux vérités de la vie quotidienne. C'est transformer une simple journée en une source inépuisable de leçons et de sagesse.",
+    a: "Pour moi, le storytelling n'est pas une simple technique d'écriture : c'est l'art de donner une voix aux émotions et aux vérités de la vie quotidienne. C'est transformer une observation en une source inépuisable de leçons et de connexion humaine.",
+  },
+  {
+    q: "Comment aidez-vous concrètement les marques ?",
+    a: "Je raconte mieux l'univers des marques et donne du sens à leurs créations. Je mets en valeur les produits, les matières premières, les inspirations, le savoir-faire et l'histoire humaine qui se cachent derrière chaque création pour inciter à l'action.",
+  },
+  {
+    q: "Qu'apporte votre formation en copywriting avec Fritzel Adjaho ?",
+    a: "Mon mentorat de 6 mois avec Fritzel Adjaho m'a appris la rigueur de la conversion : captiver dès l'accroche, maintenir un rythme narratif soutenu, comprendre la psychologie de l'audience et concevoir des appels à l'action précis sans dénaturer l'authenticité.",
   },
   {
     q: "Où peut-on lire vos contenus narratifs ?",
-    a: "Je partage principalement mes récits et chroniques sur ma page Facebook officielle (facebook.com/sakinath.adebissi). Vous y trouverez des publications régulières, des réflexions sur le mindset et des histoires vécues.",
+    a: "Je partage principalement mes récits et chroniques sur ma page Facebook officielle (facebook.com/sakinath.adebissi). Vous y trouverez des publications régulières, des analyses de vécus et des retours d'expérience concrets.",
   },
   {
-    q: "Quels types de collaborations proposez-vous ?",
-    a: "J'interviens pour la rédaction de contenus narratifs (storytelling de marque ou personnel), la création de posts inspirants, l'animation éditoriale, des interventions sur le mindset et des projets de communication narrative.",
-  },
-  {
-    q: "Vous parlez aussi anglais ?",
-    a: "Oui, je m'exprime couramment en anglais, ce qui me permet de concevoir des contenus bilingues et de m'adresser à une audience internationale.",
-  },
-  {
-    q: "Quel est le lien avec votre formation en gestion et transport ?",
-    a: "Ma formation académique (Licence GTL et Bac G2) m'apporte une rigueur analytique, un sens de l'organisation et une capacité à structurer mes pensées. Cela enrichit ma plume : des écrits à la fois sensibles et d'une clarté méthodique.",
+    q: "Dans quelles langues pouvez-vous intervenir ?",
+    a: "Je m'exprime couramment en Français et en Anglais, et je maîtrise également le Yoruba et le Goun, ce qui me confère une profonde sensibilité culturelle pour toucher des publics variés.",
   },
 ];
 
 // Appel final (Échange & Collaboration)
 export const offer = {
-  eyebrow: "Création de contenu & Récits",
-  title: "Donnons vie à vos histoires\net à votre vision.",
-  text: "Vous souhaitez raconter votre parcours, inspirer votre audience, insuffler du storytelling dans votre communication ou échanger sur le mindset ? Contactez-moi !",
-  perks: ["Storytelling authentique", "Impact émotionnel garanti", "Rigueur et créativité"],
+  eyebrow: "Storytelling de Marque & Copywriting",
+  title: "Donnons vie à vos histoires\net à vos créations.",
+  text: "Vous êtes une marque, un créateur ou une entreprise et vous souhaitez valoriser vos produits avec une narration qui fait vendre ? Contactons-nous !",
+  perks: ["Storytelling captivant", "Copywriting de conversion", "Identification & Émotion"],
 };

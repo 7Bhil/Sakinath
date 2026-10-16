@@ -1,17 +1,17 @@
 import { Spark } from "./ui.jsx";
 
-// Mots-clés défilants adaptés au Storytelling, Mindset, Anglais et Logistique
+// Mots-clés défilants adaptés au Storytelling, Copywriting & Marque
 const items = [
-  "Storytelling Authentique",
-  "Mindset & Vécus du Quotidien",
-  "Créatrice de Contenus Narratifs",
-  "English Fluent",
-  "Porto-Novo",
-  "Facebook Creator",
-  "Gestion des Transports & Logistique",
-  "Licence GTL",
-  "Bac G2",
-  "Impact & Résilience"
+  "Storytelling de Marque",
+  "Copywriting & Vente",
+  "Récits Quotidiens & Mindset",
+  "Publications Engageantes",
+  "+369 000 Vues",
+  "Porto-Novo · Bénin",
+  "Facebook Creator (+9.8K)",
+  "Mode Africaine & Culture",
+  "Mentorat Fritzel Adjaho",
+  "FR · EN · Yoruba · Goun"
 ];
 
 /* Bande défilante unique, légèrement inclinée, juste après la Hero. */

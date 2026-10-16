@@ -1,64 +1,64 @@
-// Compétences — adaptées à la Gestion des Transports, Logistique et Transit
+// Compétences — Storytelling de marque, Copywriting & Création de contenus
 const icon = (name) => `/assets/icons/${name}.svg`;
 
 // Les 3 piliers majeurs de son profil
 export const coreSkills = [
   { 
     n: "01", 
-    name: "Supply Chain & Fret", 
-    role: "Transport Multimodal & Corridors", 
+    name: "Storytelling de Marque", 
+    role: "Sens, Histoire & Valeurs", 
     icon: icon("benefit-speed"),
-    detail: "Planification des tournées, affrètement routier/maritime, optimisation des flux sur le corridor Bénin-Hinterland." 
+    detail: "Mettre en avant les produits, les matières, les inspirations et le savoir-faire. Créer une relation humaine authentique entre la marque et son public." 
   },
   { 
     n: "02", 
-    name: "Gestion des Stocks", 
-    role: "Entreposage & Plateformes", 
+    name: "Copywriting Percutant", 
+    role: "Écriture & Conversion", 
     icon: icon("benefit-quality"),
-    detail: "Tenue des registres d'inventaire, rotation FIFO/LIFO, gestion des magasins et prévention des ruptures de stock." 
+    detail: "Formée 6 mois par Fritzel Adjaho : travail des accroches, du rythme, de la psychologie des lecteurs et des appels à l'action précis." 
   },
   { 
     n: "03", 
-    name: "Douane & Transit", 
-    role: "Procédures d’Import / Export", 
+    name: "Contenus Narratifs Réseaux", 
+    role: "Viralité & Communauté", 
     icon: icon("benefit-goal"),
-    detail: "Maîtrise des Incoterms, liasse documentaire (connaissement, déclaration douanière), passage portuaire et dédouanement." 
+    detail: "Création de publications engageantes sur Facebook (jusqu'à 369k vues), fidélisation d'une communauté et analyse fine des réactions de l'audience." 
   },
 ];
 
 export const skillGroups = [
   { 
     n: "01", 
-    title: "Logistique & Fret", 
+    title: "Storytelling & Récits", 
     items: [
-      { name: "Transport Multimodal", icon: icon("benefit-speed") },
-      { name: "Gestion de Flotte", icon: icon("focus") },
-      { name: "Planification des Flux", icon: icon("approach") },
-      { name: "Suivi des Expéditions (Tracking)", icon: icon("role") },
-      { name: "Calcul des Coûts Logistiques", icon: icon("benefit-goal") },
-      { name: "Gestion des Entrepôts", icon: icon("benefit-quality") },
+      { name: "Storytelling de Marque", icon: icon("benefit-speed") },
+      { name: "Mise en valeur de produit", icon: icon("focus") },
+      { name: "Structure & Rythme narratif", icon: icon("approach") },
+      { name: "Chutes & Déclics mémorables", icon: icon("role") },
+      { name: "Expériences vécues & Mindset", icon: icon("benefit-goal") },
+      { name: "Identification & Émotion", icon: icon("benefit-quality") },
     ]
   },
   { 
     n: "02", 
-    title: "Transit & Réglementation", 
+    title: "Copywriting & Rédaction", 
     items: [
-      { name: "Incoterms (CCI)", icon: icon("benefit-goal") },
-      { name: "Procédures Douanières", icon: icon("focus") },
-      { name: "Liasse Documentaire Import/Export", icon: icon("role") },
-      { name: "Réglementation Portuaire & UEMOA", icon: icon("approach") },
-      { name: "Gestion des Litiges & Assurances", icon: icon("benefit-quality") },
+      { name: "Accroches magnétiques", icon: icon("benefit-goal") },
+      { name: "Mentorat Fritzel Adjaho (6 mois)", icon: icon("focus") },
+      { name: "Publications engageantes", icon: icon("role") },
+      { name: "Appels à l'action (CTA)", icon: icon("approach") },
+      { name: "Psychologie d'audience", icon: icon("benefit-quality") },
     ]
   },
   { 
     n: "03", 
-    title: "Gestion, Outils & Méthodes", 
+    title: "Centres d'intérêt & Univers", 
     items: [
-      { name: "Comptabilité & Gestion (Bac G2)", icon: icon("benefit-goal") },
-      { name: "Excel Avancé & Tableaux de bord", icon: icon("focus") },
-      { name: "Logiciels de Gestion / ERP", icon: icon("role") },
-      { name: "Organisation & Événementiel", icon: icon("approach") },
-      { name: "Négociation & Relation Fournisseurs", icon: icon("benefit-talk") },
+      { name: "Mode africaine", icon: icon("benefit-goal") },
+      { name: "Culture & Héritage", icon: icon("focus") },
+      { name: "Marques locales & Artisans", icon: icon("role") },
+      { name: "Prise de parole en public", icon: icon("approach") },
+      { name: "Polyglotte (FR, EN, Yoruba, Goun)", icon: icon("benefit-talk") },
     ]
   },
 ];

@@ -82,10 +82,10 @@ export default function Hero() {
 
             <Reveal delay={2150} className="relative z-10 flex flex-col items-center text-center lg:items-end lg:self-center lg:pb-10 lg:text-right">
               <span className="inline-block rounded-full bg-accent/20 px-4 py-1.5 font-display text-xs font-bold uppercase tracking-wider text-moss">
-                🇬🇧 English & 🇫🇷 Français
+                Storytelleuse & Copywriter
               </span>
-              <p className="mt-5 whitespace-nowrap font-display text-3xl font-bold leading-none tracking-tight xl:text-4xl text-ink">Récits Vivants</p>
-              <p className="mt-3 text-base text-moss-dim lg:text-lg">Partage de mes journées · Mindset</p>
+              <p className="mt-5 whitespace-nowrap font-display text-3xl font-bold leading-none tracking-tight xl:text-4xl text-ink">Récits de Marque</p>
+              <p className="mt-3 text-base text-moss-dim lg:text-lg">Émotion · Conversion · Action</p>
             </Reveal>
           </div>
         </div>
